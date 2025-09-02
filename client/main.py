@@ -26,7 +26,7 @@ async def main():
         {
             "math": {
                 "command": "python",
-                "args": ["../mathserver.py"],
+                "args": ["../server/mathserver.py"],
                 "transport": "stdio"
             },
             "weather": {
